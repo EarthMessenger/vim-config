@@ -1,0 +1,21 @@
+[submodule "pack/vim-airline"]
+	path = pack/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/dists/start/vim-airline"]
+	path = pack/dists/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/dists/start/vim-airline-themes"]
+	path = pack/dists/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/dists/start/onedark.vim"]
+	path = pack/dists/start/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/dists/start/ale"]
+	path = pack/dists/start/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/dists/start/LeaderF"]
+	path = pack/dists/start/LeaderF
+	url = https://github.com/Yggdroot/LeaderF.git
+[submodule "pack/dists/start/vim-easy-align"]
+	path = pack/dists/start/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align.git
