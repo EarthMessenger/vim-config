@@ -8,6 +8,7 @@ if has('syntax')
 endif
 
 set expandtab
+set smarttab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -22,9 +23,10 @@ set hlsearch
 set wildmenu
 set lazyredraw
 set mouse=a
+set backspace=indent,eol,start
 
 if has('gui_running')
-    set guifont=Iosevka\ Nerd\ Font\ 11
+    set guifont=Sarasa\ Mono\ SC\ 11
     set guioptions=aei
 endif
 
