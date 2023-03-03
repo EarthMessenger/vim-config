@@ -30,15 +30,11 @@ nn <C-s> :w<CR>
 im fj <ESC>
 im jf <ESC>
 
-helptags ~/.vim/pack/dists/start/LeaderF/doc/
-helptags ~/.vim/pack/dists/start/ale/doc/
-helptags ~/.vim/pack/dists/start/vim-airline-themes/doc/
-helptags ~/.vim/pack/dists/start/vim-airline/doc/
-helptags ~/.vim/pack/dists/start/vim-easy-align/doc/
+helptags ALL
 
 " airline config
 let g:airline_powerline_fonts=1
-let g:airline_theme='onedark'
+let g:airline_theme='gruvbox'
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
@@ -56,9 +52,10 @@ if (empty($TMUX))
     endif
 endif
 
-" onedark theme
-let g:onedark_terminal_italics=1
-colorscheme onedark
+packadd gruvbox
+set background=light
+let g:gruvbox_italic=1
+colorscheme gruvbox
 
 " ALE settings
 nnoremap <leader>s :ALEFix<CR>
